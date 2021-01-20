@@ -42,7 +42,7 @@ const HeaderMenuItemAccent = styled.li`
 export default () => {
   return (
     <HeaderContainer>
-      <HeaderTitle>The Programming Foundation</HeaderTitle>
+      <HeaderTitle><Link to="/home">The Programming Foundation</Link></HeaderTitle>
       <ul>
         <HeaderMenuItem><Link to="/donate">Donate</Link></HeaderMenuItem>
         <HeaderMenuItem><a href="https://www.theprogrammingfoundation.org/blog">Blog</a></HeaderMenuItem>
