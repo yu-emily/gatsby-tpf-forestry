@@ -23,6 +23,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/main`,
+        name: 'main',        
+      }
+    },
+    {
       resolve: `gatsby-plugin-typescript`,
       options: {
         isTSX: true,
